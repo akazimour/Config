@@ -30,8 +30,8 @@ spring:
               - Path=/api/reviews/**
 eureka:
   client:
-    service-url:
-      default-zone=http://localhost:8761/eureka/: http://service-reg:8761/eureka/
+    serviceUrl:
+      defaultZone: http://service-reg:8761/eureka/
 
     register-with-eureka=true:
     fetch-registry=true:

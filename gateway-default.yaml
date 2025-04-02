@@ -35,8 +35,8 @@ eureka:
 
     register-with-eureka=true:
     fetch-registry=true:
-
-  zipkin:
+    
+zipkin:
     base-url: http://${ZIPKIN_URL:localhost}:9411
 management:
   tracing:

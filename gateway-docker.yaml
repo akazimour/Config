@@ -35,3 +35,8 @@ eureka:
 
     register-with-eureka=true:
     fetch-registry=true:
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
